@@ -1,0 +1,39 @@
+@media screen and (max-width:600px) {
+  :root{
+  --basic_size:
+  var(--mobile_font_size);
+  --margin_1:
+  calc(var(--basic_size)*1) 2%;
+  --margin_2:
+  calc(var(--basic_size)*0.5) 5%;
+  --padding_1:
+  calc(var(--basic_size)*1) 0;
+  }
+
+  #block_type_4 {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding_1);
+    flex-direction: column;
+    border: solid;
+    border-radius: calc(var(--basic_size)*0.5);
+    margin: var(--margin_1);
+    border-color: gray;
+    align-items: center;
+  }
+
+  #block_type_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+
+  #block_type_6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: var(--margin_2);
+  }
+}
